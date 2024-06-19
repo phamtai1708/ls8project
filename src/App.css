@@ -1,0 +1,72 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: center;
+}
+.boxSearch {
+  width: 100%;
+}
+input {
+  width: 20rem;
+  height: 2rem;
+}
+button.btnSearch {
+  width: 10rem;
+  height: 2rem;
+  padding: 0;
+  margin: 0 1rem;
+}
+button:hover {
+  background-color: rgb(165, 145, 255);
+  color: white;
+}
+.boxPokemon {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+div.filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+div.listCheckbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+p.locHe {
+  display: inline;
+  width: 5rem;
+  height: 2rem;
+  margin: 0;
+  font-weight: bold;
+}
+p.item {
+  width: 5rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  gap: 0.2rem;
+}
+p.item input {
+  width: 1rem;
+  height: 1rem;
+}
